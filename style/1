@@ -1,0 +1,21 @@
+html * {
+  box-sizing: border-box;  /* padding and margins are computed within box */
+  margin: 0 0 0 0;  /* ensures body extends to full screen */
+  min-height: 100vh;
+}
+
+
+
+#outerContainer {        /* used for topnav to extend full width */
+  width: 100%;       
+  display: block;        /* ensures that children div are nested inside */
+  text-align: center;    /* children divs are centered within outerContainer */
+ 
+}
+
+#topNav  {
+  width: 100%;	
+  height: 1vh;
+}
+
+
